@@ -8,8 +8,8 @@ public class DBConnectionMYSQL {
 
     private static final String DATABASE_NAME = "db_biblioteca";
     private static final String URL = "jdbc:mysql://localhost:3306/" + DATABASE_NAME + "?useSSL=false";
-    private static final String USER = "juanperez";
-    private static final String PASSWORD = "admin";
+    private static final String USER = "root";
+    private static final String PASSWORD = "@dmIn_27";
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
         // Cargar el driver JDBC de MySQL
