@@ -614,10 +614,6 @@ INSERT INTO rolOpciones (idRol, idOpcion) VALUES
 
 -- RRHH (gestión de empleados y roles)
     (6, 2), (6, 11), (6, 3), (6, 12);
-    
--- creacion de el admin juan perez
-CREATE USER 'juanperez'@'localhost' IDENTIFIED BY 'admin';
-GRANT ALL PRIVILEGES ON *.* TO 'juanperez'@'localhost' WITH GRANT OPTION;
-FLUSH PRIVILEGES;
+
 
     
