@@ -616,7 +616,8 @@ INSERT INTO rolOpciones (idRol, idOpcion) VALUES
     (6, 2), (6, 11), (6, 3), (6, 12);
     
 -- creacion de el admin juan perez
-CREATE USER 'juanperez'@'localhost' IDENTIFIED BY 'contraseña_segura';
-GRANT ALL PRIVILEGES ON *.* TO 'juanperez'@'localhost' WITH GRANT OPTION;
+CREATE USER 'juanperez'@'localhost' IDENTIFIED BY 'admin';
+GRANT ALL PRIVILEGES ON db_biblioteca.* TO 'juanperez'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
+
     
