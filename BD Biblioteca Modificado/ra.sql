@@ -1,3 +1,10 @@
+use db_biblioteca;
+
+CREATE USER 'juanperez'@'localhost' IDENTIFIED BY 'contraseña_segura';
+GRANT ALL PRIVILEGES ON *.* TO 'juanperez'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+
 select * from empleados;
 select * from libros;
 select * from usuarios;
